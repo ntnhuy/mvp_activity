@@ -3,9 +3,11 @@ package ${packageName};
 import ${applicationPackage?replace(".mockup", "")}.app.bases.MvpView;
 
 /**
- * Created by tohuy on 9/14/17.
+ * User: ntnhuy
+ * Date: ${.now?string('M/dd/yy')}
+ *Time: ${.now?string('h:mm a')}
  */
-
+ 
 public interface ${activityClass?replace('Activity', '')}View extends MvpView {
 
 }

@@ -4,7 +4,8 @@
     <#include "../common/recipe_manifest.xml.ftl" />
     <@kt.addAllKotlinDependencies />
 
-    <#include "../common/recipe_simple.xml.ftl" />
+    <instantiate from="root/res/layout/activity_main.xml.ftl"
+                   to="${escapeXmlAttribute(resOut)}/layout/${layoutName}.xml" />
     <open file="${escapeXmlAttribute(resOut)}/layout/${layoutName}.xml" />
 
 <#if generateKotlin>

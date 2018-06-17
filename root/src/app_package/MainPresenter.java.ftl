@@ -18,9 +18,11 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
 /**
- * Created by tohuy on 9/14/17.
+ * User: ntnhuy
+ * Date: ${.now?string('M/dd/yy')}
+ *Time: ${.now?string('h:mm a')}
  */
-
+ 
 public class ${activityClass?replace('Activity', '')}Presenter extends BasePresenter<${activityClass?replace('Activity', '')}View> {
 
     @Inject
